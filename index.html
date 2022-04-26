@@ -8,10 +8,18 @@
 <b>Google Colab: </b>
 <a href="https://colab.research.google.com/drive/1ItwtIWklbO-vFTWoK4wxt_vPGtbZN3HR?usp=sharing"> https://colab.research.google.com/drive/1ItwtIWklbO-vFTWoK4wxt_vPGtbZN3HR?usp=sharing </a></br>
 
-d3.csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv", function(error, data) {
-  if(error){console.log("Error al leer el fichero titanic.csv");
-  } else {
-  //Incorporación de gráficos
-  // .....
-  }
-  });
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></
+script>
+</head>
+
+<h2> Gráfico de Columnas con D3Plus</h2>
+<div id="viz1"></div>
+
+<h2> Reutilizar código. Barras</h2>
+<div id="viz2"></div>
+
+<h2> Datos BoxPlot.</h2>
+<div id="viz3"></div>
